@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="demo.xsl"?>
+<root>
+  <env>
+    <domain>local</domain>
+  </env>
+  <data>
+    <wxiconlist><i><icon>//momofox.com/img/fox.jpg</icon><title>watch</title><href>//momofox.com/img/fox.jpg</href><marginTop>false</marginTop></i><i><icon>//momofox.com/img/fox.jpg</icon><title>tough laptop</title><href>//momofox.com/img/fox.jpg</href><marginTop>false</marginTop></i><i><icon>//momofox.com/img/fox.jpg</icon><title>wallet</title><href>//momofox.com/img/fox.jpg</href><marginTop>false</marginTop></i></wxiconlist>
+  </data>
+
+</root>
