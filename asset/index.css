@@ -1,6 +1,18 @@
 .oxmod-wxiconlist {
   /* CSS */
 }
+.oxmod-wxiconlist .right-ic {
+  float: right;
+  font-style: normal;
+  border-top: solid 1px #999;
+  border-right: solid 1px #999;
+  width: 10px;
+  height: 10px;
+  transform: rotate(45deg);
+  transform-origin: 0 100%;
+  margin-right: 5px;
+  margin-top: 5px;
+}
 .oxmod-wxiconlist ul {
   background-color: #efeff4;
   list-style: none;
@@ -10,7 +22,7 @@
 }
 .oxmod-wxiconlist li {
   margin-left: 10px;
-  padding: 10px 0 10px 40px;
+  padding: 10px 10px 10px 40px;
   font-size: 20px;
   line-height: 30px;
   height: 30px;
@@ -26,6 +38,8 @@
   border-bottom-style: none;
 }
 .oxmod-wxiconlist li a {
+  display: block;
+  width: 100%;
   color: #666;
   text-decoration: none;
 }
