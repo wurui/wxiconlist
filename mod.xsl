@@ -8,16 +8,20 @@
         This is mod wxiconlist;
 
       </h1>
-        <ul>
+        <div>
             <xsl:for-each select="data/wxiconlist/i">
-            <li>
-                <img src="{icon}" width="40px" />
-                <a href="{href}">
-                <xsl:value-of select="title"/>
-                </a>
-            </li>
+                <ul>
+                    <xsl:for-each select="i">
+                        <li>
+                            <img src="{icon}" width="40px" />
+                            <a href="{href}">
+                            <xsl:value-of select="title"/>
+                            </a>
+                        </li>
+                    </xsl:for-each>
+                </ul>
             </xsl:for-each>
-        </ul>
+        </div>
       </div>
     </xsl:template>
 

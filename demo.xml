@@ -1,11 +1,49 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="demo.xsl"?>
 <root>
-  <env>
-    <domain>local</domain>
-  </env>
-  <data>
-    <wxiconlist><i><icon>//momofox.com/img/fox.jpg</icon><title>watch</title><href>//momofox.com/img/fox.jpg</href><marginTop>false</marginTop></i><i><icon>//momofox.com/img/fox.jpg</icon><title>tough laptop</title><href>//momofox.com/img/fox.jpg</href><marginTop>false</marginTop></i><i><icon>//momofox.com/img/fox.jpg</icon><title>wallet</title><href>//momofox.com/img/fox.jpg</href><marginTop>false</marginTop></i></wxiconlist>
-  </data>
+    <env>
+        <domain>local</domain>
+    </env>
+    <data>
+        <wxiconlist>
+            <i>
+                <i>
+                    <icon>//momofox.com/img/ic1.png</icon>
+                    <title>watch</title>
+                    <href>//momofox.com/img/fox.jpg</href>
+                </i>
+
+            </i>
+
+            <i>
+                <i>
+                    <icon>//momofox.com/img/ic2.png</icon>
+                    <title>tough laptop</title>
+                    <href>//momofox.com/img/fox.jpg</href>
+
+                </i>
+                <i>
+                    <icon>//momofox.com/img/ic3.png</icon>
+                    <title>wallet</title>
+                    <href>//momofox.com/img/fox.jpg</href>
+
+                </i>
+            </i>
+            <i>
+                <i>
+                    <icon>//momofox.com/img/ic4.png</icon>
+                    <title>tough laptop</title>
+                    <href>//momofox.com/img/fox.jpg</href>
+
+                </i>
+                <i>
+                    <icon>//momofox.com/img/ic5.png</icon>
+                    <title>wallet</title>
+                    <href>//momofox.com/img/fox.jpg</href>
+
+                </i>
+            </i>
+        </wxiconlist>
+    </data>
 
 </root>
