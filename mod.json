@@ -1,6 +1,6 @@
 {
   "name": "wxiconlist",
   "version": "1.0.0",
-  "apiDependencies": [&#34;wxiconlist&#34;]
+  "apiDependencies": ["wxiconlist"]
 }
 
