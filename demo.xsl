@@ -9,7 +9,7 @@
         <meta name="data-spm" content="181"/>
 
         <title>wxiconlist Demo</title>
-
+        <link rel="stylesheet" type="text/css" href="//openxsl.com/js/require.js" />
         <link rel="stylesheet" type="text/css" href="asset/index.css" />
         <script data-main="asset/index.js" src="http://openxsl.com/js/require.js"></script>
 
