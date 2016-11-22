@@ -9,9 +9,9 @@
         <meta name="data-spm" content="181"/>
 
         <title>wxiconlist Demo</title>
-        <link rel="stylesheet" type="text/css" href="//openxsl.com/js/require.js" />
+        <link rel="stylesheet" type="text/css" href="https://1.openxsl.com/css/ea.css" />
         <link rel="stylesheet" type="text/css" href="asset/index.css" />
-        <script data-main="asset/index.js" src="http://openxsl.com/js/require.js"></script>
+        <script src="https://1.openxsl.com/js/require.js"></script>
 
       </head>
       <body>
@@ -20,6 +20,19 @@
         <div class="layout">
           <xsl:call-template name="wxiconlist" />
         </div>
+
+        <script><![CDATA[
+          require.config({
+          paths: {
+          zepto: 'https://1.openxsl.com/js/zepto.min',
+          mustache: 'https://1.openxsl.com/js/mustache'
+          }
+          });
+          require(['zepto','asset/index'],function(undefine,Mod){
+          Mod && Mod.init && Mod.init($('.J_OXMod'));
+
+          })
+        ]]></script>
 
       </body>
 
